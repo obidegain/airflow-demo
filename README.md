@@ -29,6 +29,7 @@ airflow users create \
           --role Admin \
           --email octa.bidegain@gmail.com
 ```
+**La pass que setee es: password**
 
 Si ya tenemos el pipeline creado, estamos en condiciones de ejecutar el scheduler y webserver:
 **Muy importante: hay que tener la misma referencia a home desde las terminales:**
