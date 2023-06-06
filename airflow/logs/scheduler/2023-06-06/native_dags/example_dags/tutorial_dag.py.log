@@ -1,0 +1,585 @@
+[2023-06-06T18:22:02.960-0300] {processor.py:157} INFO - Started process (PID=113305) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:22:02.961-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:22:02.962-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:02.961-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:22:02.967-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:22:03.061-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:03.061-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2023-06-06T18:22:03.072-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:03.071-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2023-06-06T18:22:03.081-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:03.081-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2023-06-06T18:22:03.081-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:03.081-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:22:03.089-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:03.089-0300] {dag.py:2747} INFO - Creating ORM DAG for tutorial_dag
+[2023-06-06T18:22:03.096-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:03.096-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:22:03.115-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.157 seconds
+[2023-06-06T18:22:53.307-0300] {processor.py:157} INFO - Started process (PID=113403) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:22:53.315-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:22:53.315-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:53.315-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:22:53.320-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:22:53.339-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:53.339-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:22:53.356-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:22:53.356-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:22:53.374-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2023-06-06T18:23:27.221-0300] {processor.py:157} INFO - Started process (PID=113475) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:23:27.222-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:23:27.222-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:23:27.222-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:23:27.226-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:23:27.243-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:23:27.242-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:23:27.260-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:23:27.260-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:23:27.279-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2023-06-06T18:24:12.967-0300] {processor.py:157} INFO - Started process (PID=113730) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:24:12.974-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:24:12.975-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:24:12.975-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:24:12.980-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:24:13.001-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:24:13.001-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:24:13.021-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:24:13.021-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:24:13.044-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2023-06-06T18:24:45.879-0300] {processor.py:157} INFO - Started process (PID=113813) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:24:45.880-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:24:45.881-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:24:45.881-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:24:45.888-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:24:45.908-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:24:45.908-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:24:45.928-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:24:45.928-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:24:45.949-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.076 seconds
+[2023-06-06T18:25:20.739-0300] {processor.py:157} INFO - Started process (PID=113924) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:25:20.740-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:25:20.740-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:25:20.740-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:25:20.746-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:25:20.767-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:25:20.767-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:25:20.784-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:25:20.784-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:25:20.805-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2023-06-06T18:25:58.528-0300] {processor.py:157} INFO - Started process (PID=114033) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:25:58.535-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:25:58.535-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:25:58.535-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:25:58.539-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:25:58.555-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:25:58.554-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:25:58.570-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:25:58.570-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:25:58.667-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.142 seconds
+[2023-06-06T18:28:25.619-0300] {processor.py:157} INFO - Started process (PID=114322) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:28:25.620-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:28:25.620-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:28:25.620-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:28:25.626-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:28:25.647-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:28:25.647-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:28:25.662-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:28:25.662-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:28:25.682-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2023-06-06T18:29:12.474-0300] {processor.py:157} INFO - Started process (PID=114438) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:29:12.475-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:29:12.476-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:29:12.476-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:29:12.481-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:29:12.501-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:29:12.501-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:29:12.517-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:29:12.517-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:29:12.536-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2023-06-06T18:29:56.695-0300] {processor.py:157} INFO - Started process (PID=114533) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:29:56.697-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:29:56.699-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:29:56.699-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:29:56.711-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:29:56.733-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:29:56.733-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:29:56.748-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:29:56.748-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:29:56.766-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.078 seconds
+[2023-06-06T18:30:41.107-0300] {processor.py:157} INFO - Started process (PID=114633) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:30:41.114-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:30:41.115-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:30:41.115-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:30:41.119-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:30:41.138-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:30:41.138-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:30:41.154-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:30:41.154-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:30:41.179-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.074 seconds
+[2023-06-06T18:31:26.111-0300] {processor.py:157} INFO - Started process (PID=114723) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:31:26.118-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:31:26.119-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:31:26.119-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:31:26.123-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:31:26.138-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:31:26.138-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:31:26.153-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:31:26.153-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:31:26.177-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.068 seconds
+[2023-06-06T18:32:14.696-0300] {processor.py:157} INFO - Started process (PID=114810) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:32:14.703-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:32:14.703-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:32:14.703-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:32:14.708-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:32:14.725-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:32:14.725-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:32:14.741-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:32:14.741-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:32:14.836-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.143 seconds
+[2023-06-06T18:32:50.207-0300] {processor.py:157} INFO - Started process (PID=114888) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:32:50.214-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:32:50.215-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:32:50.215-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:32:50.219-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:32:50.242-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:32:50.242-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:32:50.329-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:32:50.329-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:32:50.365-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.161 seconds
+[2023-06-06T18:33:26.623-0300] {processor.py:157} INFO - Started process (PID=114959) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:33:26.623-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:33:26.624-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:33:26.624-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:33:26.628-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:33:26.643-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:33:26.643-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:33:26.657-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:33:26.657-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:33:26.677-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2023-06-06T18:33:58.094-0300] {processor.py:157} INFO - Started process (PID=115015) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:33:58.101-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:33:58.102-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:33:58.102-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:33:58.107-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:33:58.126-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:33:58.125-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:33:58.142-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:33:58.142-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:33:58.160-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2023-06-06T18:34:31.986-0300] {processor.py:157} INFO - Started process (PID=115110) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:34:31.995-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:34:31.996-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:34:31.996-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:34:32.008-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:34:32.032-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:34:32.031-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:34:32.048-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:34:32.048-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:34:32.068-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.090 seconds
+[2023-06-06T18:35:17.182-0300] {processor.py:157} INFO - Started process (PID=115238) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:35:17.189-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:35:17.191-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:35:17.190-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:35:17.201-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:35:17.226-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:35:17.226-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:35:17.245-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:35:17.245-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:35:17.268-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2023-06-06T18:35:48.576-0300] {processor.py:157} INFO - Started process (PID=115321) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:35:48.584-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:35:48.586-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:35:48.585-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:35:48.597-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:35:48.623-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:35:48.623-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:35:48.640-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:35:48.640-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:35:48.659-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2023-06-06T18:36:21.596-0300] {processor.py:157} INFO - Started process (PID=115450) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:36:21.597-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:36:21.598-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:36:21.598-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:36:21.605-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:36:21.624-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:36:21.624-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:36:21.641-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:36:21.641-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:36:21.660-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2023-06-06T18:37:07.860-0300] {processor.py:157} INFO - Started process (PID=115578) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:37:07.862-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:37:07.864-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:37:07.863-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:37:07.876-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:37:07.900-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:37:07.899-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:37:07.916-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:37:07.915-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:37:07.942-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.090 seconds
+[2023-06-06T18:37:42.746-0300] {processor.py:157} INFO - Started process (PID=115676) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:37:42.749-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:37:42.750-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:37:42.750-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:37:42.755-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:37:42.776-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:37:42.776-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:37:42.795-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:37:42.795-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:37:42.818-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.078 seconds
+[2023-06-06T18:38:18.558-0300] {processor.py:157} INFO - Started process (PID=115743) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:38:18.561-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:38:18.563-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:38:18.563-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:38:18.572-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:38:18.594-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:38:18.594-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:38:18.612-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:38:18.612-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:38:18.633-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2023-06-06T18:38:52.343-0300] {processor.py:157} INFO - Started process (PID=115802) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:38:52.344-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:38:52.344-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:38:52.344-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:38:52.348-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:38:52.363-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:38:52.363-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:38:52.379-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:38:52.379-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:38:52.397-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2023-06-06T18:39:26.183-0300] {processor.py:157} INFO - Started process (PID=115905) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:39:26.190-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:39:26.191-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:39:26.190-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:39:26.195-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:39:26.215-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:39:26.215-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:39:26.231-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:39:26.231-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:39:26.249-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2023-06-06T18:40:00.406-0300] {processor.py:157} INFO - Started process (PID=115979) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:40:00.413-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:40:00.414-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:40:00.414-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:40:00.417-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:40:00.434-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:40:00.434-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:40:00.449-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:40:00.449-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:40:00.468-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2023-06-06T18:40:33.011-0300] {processor.py:157} INFO - Started process (PID=116075) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:40:33.012-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:40:33.013-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:40:33.013-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:40:33.020-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:40:33.039-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:40:33.039-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:40:33.054-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:40:33.054-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:40:33.072-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2023-06-06T18:41:18.431-0300] {processor.py:157} INFO - Started process (PID=116190) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:41:18.439-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:41:18.440-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:41:18.440-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:41:18.453-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:41:18.476-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:41:18.476-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:41:18.492-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:41:18.491-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:41:18.515-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.087 seconds
+[2023-06-06T18:42:05.413-0300] {processor.py:157} INFO - Started process (PID=116278) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:42:05.421-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:42:05.422-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:42:05.422-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:42:05.429-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:42:05.455-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:42:05.454-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:42:05.473-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:42:05.473-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:42:05.493-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2023-06-06T18:42:50.002-0300] {processor.py:157} INFO - Started process (PID=116369) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:42:50.009-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:42:50.009-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:42:50.009-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:42:50.013-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:42:50.031-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:42:50.031-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:42:50.047-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:42:50.047-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:42:50.064-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2023-06-06T18:43:35.524-0300] {processor.py:157} INFO - Started process (PID=116474) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:43:35.532-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:43:35.534-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:43:35.534-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:43:35.547-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:43:35.573-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:43:35.573-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:43:35.590-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:43:35.589-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:43:35.608-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.092 seconds
+[2023-06-06T18:44:19.877-0300] {processor.py:157} INFO - Started process (PID=116553) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:44:19.884-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:44:19.884-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:44:19.884-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:44:19.888-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:44:19.903-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:44:19.903-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:44:19.918-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:44:19.918-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:44:19.936-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2023-06-06T18:45:06.173-0300] {processor.py:157} INFO - Started process (PID=116705) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:45:06.182-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:45:06.184-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:45:06.184-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:45:06.197-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:45:06.222-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:45:06.221-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:45:06.239-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:45:06.238-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:45:06.259-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.094 seconds
+[2023-06-06T18:45:38.661-0300] {processor.py:157} INFO - Started process (PID=116790) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:45:38.662-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:45:38.662-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:45:38.662-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:45:38.666-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:45:38.684-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:45:38.684-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:45:38.701-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:45:38.701-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:45:38.720-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2023-06-06T18:46:10.492-0300] {processor.py:157} INFO - Started process (PID=116865) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:46:10.493-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:46:10.493-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:46:10.493-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:46:10.497-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:46:10.516-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:46:10.515-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:46:10.533-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:46:10.532-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:46:10.552-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2023-06-06T18:46:53.226-0300] {processor.py:157} INFO - Started process (PID=116961) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:46:53.235-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:46:53.237-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:46:53.236-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:46:53.251-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:46:53.301-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:46:53.301-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:46:53.325-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:46:53.325-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:46:53.345-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.127 seconds
+[2023-06-06T18:47:24.310-0300] {processor.py:157} INFO - Started process (PID=117020) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:47:24.311-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:47:24.311-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:47:24.311-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:47:24.315-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:47:24.330-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:47:24.330-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:47:24.346-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:47:24.345-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:47:24.365-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2023-06-06T18:47:55.305-0300] {processor.py:157} INFO - Started process (PID=117081) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:47:55.313-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:47:55.315-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:47:55.315-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:47:55.328-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:47:55.355-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:47:55.355-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:47:55.372-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:47:55.372-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:47:55.391-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.094 seconds
+[2023-06-06T18:48:42.646-0300] {processor.py:157} INFO - Started process (PID=117157) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:48:42.655-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:48:42.656-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:48:42.656-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:48:42.672-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:48:42.699-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:48:42.699-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:48:42.717-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:48:42.717-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:48:42.737-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2023-06-06T18:49:31.649-0300] {processor.py:157} INFO - Started process (PID=117324) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:49:31.658-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:49:31.660-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:49:31.659-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:49:31.671-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:49:31.697-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:49:31.697-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:49:31.713-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:49:31.713-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:49:31.732-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2023-06-06T18:50:15.669-0300] {processor.py:157} INFO - Started process (PID=117422) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:50:15.677-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:50:15.679-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:50:15.678-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:50:15.693-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:50:15.723-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:50:15.723-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:50:15.739-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:50:15.739-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:50:15.757-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2023-06-06T18:51:01.559-0300] {processor.py:157} INFO - Started process (PID=117553) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:51:01.566-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:51:01.567-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:51:01.567-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:51:01.571-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:51:01.589-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:51:01.589-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:51:01.605-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:51:01.605-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:51:01.622-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2023-06-06T18:51:33.393-0300] {processor.py:157} INFO - Started process (PID=117630) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:51:33.394-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:51:33.394-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:51:33.394-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:51:33.398-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:51:33.413-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:51:33.413-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:51:33.429-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:51:33.429-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:51:33.448-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2023-06-06T18:52:05.208-0300] {processor.py:157} INFO - Started process (PID=117694) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:52:05.215-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:52:05.216-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:52:05.215-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:52:05.220-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:52:05.241-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:52:05.240-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:52:05.256-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:52:05.256-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:52:05.290-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.085 seconds
+[2023-06-06T18:52:39.257-0300] {processor.py:157} INFO - Started process (PID=117748) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:52:39.265-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:52:39.265-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:52:39.265-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:52:39.270-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:52:39.289-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:52:39.289-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:52:39.306-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:52:39.306-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:52:39.401-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.146 seconds
+[2023-06-06T18:53:16.755-0300] {processor.py:157} INFO - Started process (PID=117815) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:53:16.762-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:53:16.764-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:53:16.764-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:53:16.775-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:53:16.807-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:53:16.806-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:53:16.895-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:53:16.895-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:53:16.912-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.159 seconds
+[2023-06-06T18:53:57.467-0300] {processor.py:157} INFO - Started process (PID=117899) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:53:57.475-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:53:57.477-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:53:57.477-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:53:57.489-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:53:57.517-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:53:57.517-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:53:57.533-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:53:57.533-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:53:57.561-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.096 seconds
+[2023-06-06T18:54:32.477-0300] {processor.py:157} INFO - Started process (PID=117966) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:54:32.484-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:54:32.486-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:54:32.486-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:54:32.492-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:54:32.507-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:54:32.507-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:54:32.523-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:54:32.523-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:54:32.540-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2023-06-06T18:55:15.646-0300] {processor.py:157} INFO - Started process (PID=118051) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:55:15.653-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:55:15.654-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:55:15.654-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:55:15.659-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:55:15.677-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:55:15.677-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:55:15.693-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:55:15.693-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:55:15.717-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.073 seconds
+[2023-06-06T18:55:48.511-0300] {processor.py:157} INFO - Started process (PID=118134) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:55:48.518-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:55:48.519-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:55:48.519-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:55:48.523-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:55:48.540-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:55:48.540-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:55:48.557-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:55:48.557-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:55:48.579-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2023-06-06T18:56:23.424-0300] {processor.py:157} INFO - Started process (PID=118212) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:56:23.432-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:56:23.433-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:56:23.432-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:56:23.439-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:56:23.461-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:56:23.460-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:56:23.479-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:56:23.479-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:56:23.509-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.088 seconds
+[2023-06-06T18:57:09.726-0300] {processor.py:157} INFO - Started process (PID=118371) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:57:09.734-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:57:09.735-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:57:09.735-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:57:09.745-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:57:09.767-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:57:09.767-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:57:09.783-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:57:09.783-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:57:09.802-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2023-06-06T18:57:42.346-0300] {processor.py:157} INFO - Started process (PID=118426) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:57:42.353-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:57:42.353-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:57:42.353-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:57:42.357-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:57:42.373-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:57:42.372-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:57:42.388-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:57:42.388-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:57:42.406-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2023-06-06T18:58:27.305-0300] {processor.py:157} INFO - Started process (PID=118511) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:58:27.312-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:58:27.312-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:58:27.312-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:58:27.317-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:58:27.334-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:58:27.334-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:58:27.350-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:58:27.350-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:58:27.369-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2023-06-06T18:59:03.074-0300] {processor.py:157} INFO - Started process (PID=118585) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:59:03.083-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:59:03.085-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:59:03.085-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:59:03.098-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:59:03.122-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:59:03.121-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:59:03.137-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:59:03.137-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:59:03.155-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.089 seconds
+[2023-06-06T18:59:50.119-0300] {processor.py:157} INFO - Started process (PID=118666) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:59:50.120-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T18:59:50.120-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:59:50.120-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:59:50.125-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T18:59:50.141-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:59:50.141-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T18:59:50.157-0300] {logging_mixin.py:149} INFO - [2023-06-06T18:59:50.157-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T18:59:50.175-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2023-06-06T19:00:31.950-0300] {processor.py:157} INFO - Started process (PID=118738) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:00:31.957-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:00:31.957-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:00:31.957-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:00:31.961-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:00:31.977-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:00:31.977-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:00:31.992-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:00:31.992-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:00:32.015-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.068 seconds
+[2023-06-06T19:01:15.123-0300] {processor.py:157} INFO - Started process (PID=118843) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:01:15.130-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:01:15.130-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:01:15.130-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:01:15.134-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:01:15.149-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:01:15.149-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:01:15.165-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:01:15.165-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:01:15.183-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2023-06-06T19:01:58.814-0300] {processor.py:157} INFO - Started process (PID=118923) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:01:58.822-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:01:58.824-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:01:58.823-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:01:58.837-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:01:58.865-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:01:58.865-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:01:58.881-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:01:58.881-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:01:58.908-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.097 seconds
+[2023-06-06T19:02:44.616-0300] {processor.py:157} INFO - Started process (PID=119070) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:02:44.617-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:02:44.618-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:02:44.617-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:02:44.622-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:02:44.639-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:02:44.639-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:02:44.655-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:02:44.655-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:02:44.673-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2023-06-06T19:03:18.774-0300] {processor.py:157} INFO - Started process (PID=119138) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:03:18.781-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:03:18.781-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:03:18.781-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:03:18.785-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:03:18.801-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:03:18.801-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:03:18.817-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:03:18.817-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:03:18.836-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2023-06-06T19:04:00.633-0300] {processor.py:157} INFO - Started process (PID=119228) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:04:00.640-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:04:00.640-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:04:00.640-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:04:00.645-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:04:00.664-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:04:00.664-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:04:00.682-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:04:00.682-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:04:00.700-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2023-06-06T19:04:41.516-0300] {processor.py:157} INFO - Started process (PID=119305) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:04:41.523-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:04:41.524-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:04:41.524-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:04:41.528-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:04:41.545-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:04:41.545-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:04:41.560-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:04:41.560-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:04:41.579-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2023-06-06T19:05:24.705-0300] {processor.py:157} INFO - Started process (PID=119387) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:05:24.712-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:05:24.713-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:05:24.713-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:05:24.717-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:05:24.737-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:05:24.737-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:05:24.754-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:05:24.754-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:05:24.772-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2023-06-06T19:06:09.203-0300] {processor.py:157} INFO - Started process (PID=119488) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:06:09.210-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:06:09.211-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:06:09.211-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:06:09.215-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:06:09.234-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:06:09.234-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:06:09.251-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:06:09.251-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:06:09.276-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.075 seconds
+[2023-06-06T19:06:40.516-0300] {processor.py:157} INFO - Started process (PID=119549) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:06:40.523-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:06:40.524-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:06:40.524-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:06:40.528-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:06:40.547-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:06:40.547-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:06:40.564-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:06:40.564-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:06:40.583-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2023-06-06T19:07:12.259-0300] {processor.py:157} INFO - Started process (PID=119623) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:07:12.268-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:07:12.269-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:07:12.269-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:07:12.278-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:07:12.303-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:07:12.303-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:07:12.320-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:07:12.320-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:07:12.339-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.086 seconds
+[2023-06-06T19:07:45.572-0300] {processor.py:157} INFO - Started process (PID=119698) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:07:45.579-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:07:45.579-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:07:45.579-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:07:45.584-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:07:45.601-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:07:45.601-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:07:45.618-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:07:45.618-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:07:45.638-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2023-06-06T19:08:21.464-0300] {processor.py:157} INFO - Started process (PID=119757) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:08:21.471-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:08:21.472-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:08:21.472-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:08:21.476-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:08:21.494-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:08:21.493-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:08:21.510-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:08:21.510-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:08:21.528-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2023-06-06T19:08:56.057-0300] {processor.py:157} INFO - Started process (PID=119824) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:08:56.064-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:08:56.065-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:08:56.065-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:08:56.068-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:08:56.085-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:08:56.084-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:08:56.101-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:08:56.101-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:08:56.119-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2023-06-06T19:09:40.635-0300] {processor.py:157} INFO - Started process (PID=119906) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:09:40.644-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:09:40.645-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:09:40.645-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:09:40.657-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:09:40.682-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:09:40.681-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:09:40.699-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:09:40.699-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:09:40.718-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.090 seconds
+[2023-06-06T19:10:12.205-0300] {processor.py:157} INFO - Started process (PID=119961) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:10:12.206-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:10:12.207-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:10:12.207-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:10:12.214-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:10:12.238-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:10:12.238-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:10:12.255-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:10:12.255-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:10:12.274-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.073 seconds
+[2023-06-06T19:10:45.187-0300] {processor.py:157} INFO - Started process (PID=120047) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:10:45.196-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:10:45.197-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:10:45.197-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:10:45.208-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:10:45.233-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:10:45.233-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:10:45.252-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:10:45.252-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:10:45.272-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.092 seconds
+[2023-06-06T19:11:17.572-0300] {processor.py:157} INFO - Started process (PID=120105) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:11:17.580-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:11:17.582-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:11:17.581-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:11:17.592-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:11:17.616-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:11:17.616-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:11:17.637-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:11:17.636-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:11:17.662-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2023-06-06T19:11:50.929-0300] {processor.py:157} INFO - Started process (PID=120168) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:11:50.938-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:11:50.940-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:11:50.939-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:11:50.951-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:11:50.973-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:11:50.973-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:11:50.990-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:11:50.990-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:11:51.009-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.088 seconds
+[2023-06-06T19:12:38.326-0300] {processor.py:157} INFO - Started process (PID=120255) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:12:38.327-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:12:38.328-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:12:38.328-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:12:38.335-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:12:38.354-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:12:38.354-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:12:38.371-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:12:38.370-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:12:38.392-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds
+[2023-06-06T19:13:21.611-0300] {processor.py:157} INFO - Started process (PID=120340) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:13:21.618-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:13:21.620-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:13:21.620-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:13:21.629-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:13:21.656-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:13:21.656-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:13:21.674-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:13:21.674-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:13:21.700-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.093 seconds
+[2023-06-06T19:14:04.958-0300] {processor.py:157} INFO - Started process (PID=120444) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:14:04.967-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:14:04.968-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:14:04.968-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:14:04.981-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:14:05.007-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:14:05.007-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:14:05.023-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:14:05.023-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:14:05.048-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2023-06-06T19:14:38.071-0300] {processor.py:157} INFO - Started process (PID=120508) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:14:38.079-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:14:38.081-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:14:38.080-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:14:38.090-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:14:38.110-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:14:38.109-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:14:38.125-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:14:38.125-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:14:38.144-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2023-06-06T19:15:11.226-0300] {processor.py:157} INFO - Started process (PID=120565) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:15:11.235-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:15:11.236-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:15:11.236-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:15:11.248-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:15:11.275-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:15:11.275-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:15:11.292-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:15:11.292-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:15:11.310-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2023-06-06T19:15:57.744-0300] {processor.py:157} INFO - Started process (PID=120691) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:15:57.752-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:15:57.753-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:15:57.753-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:15:57.760-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:15:57.780-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:15:57.780-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:15:57.800-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:15:57.800-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:15:57.829-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.089 seconds
+[2023-06-06T19:16:35.022-0300] {processor.py:157} INFO - Started process (PID=120840) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:16:35.030-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:16:35.032-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:16:35.032-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:16:35.044-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:16:35.065-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:16:35.065-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:16:35.081-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:16:35.081-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:16:35.106-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.092 seconds
+[2023-06-06T19:17:18.133-0300] {processor.py:157} INFO - Started process (PID=120941) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:17:18.135-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-06-06T19:17:18.135-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:18.135-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:17:18.140-0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-06-06T19:17:18.160-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:18.160-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:17:18.179-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:18.179-0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-06-06T19:17:18.200-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.071 seconds
