@@ -464,3 +464,10 @@
 [2023-06-06T19:16:58.497-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:16:58.497-0300] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-06-06T19:16:58.513-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:16:58.513-0300] {dag.py:3486} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-06-06T18:16:58.513426+00:00, run_after=2023-06-06T22:16:58.513426+00:00
 [2023-06-06T19:16:58.531-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.067 seconds
+[2023-06-06T19:17:40.477-0300] {processor.py:157} INFO - Started process (PID=121025) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-06-06T19:17:40.484-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-06-06T19:17:40.485-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:40.484-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-06-06T19:17:40.492-0300] {processor.py:836} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-06-06T19:17:40.511-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:40.511-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:17:40.530-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:40.530-0300] {dag.py:3486} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-06-06T18:17:40.530359+00:00, run_after=2023-06-06T22:17:40.530359+00:00
+[2023-06-06T19:17:40.555-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.081 seconds

@@ -478,3 +478,10 @@
 [2023-06-06T19:16:54.558-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:16:54.558-0300] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-06-06T19:16:54.574-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:16:54.574-0300] {dag.py:3486} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
 [2023-06-06T19:16:54.593-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.090 seconds
+[2023-06-06T19:17:36.016-0300] {processor.py:157} INFO - Started process (PID=120988) to work on /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-06-06T19:17:36.017-0300] {processor.py:826} INFO - Processing file /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2023-06-06T19:17:36.017-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:36.017-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-06-06T19:17:36.021-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-06-06T19:17:36.037-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:36.037-0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-06T19:17:36.054-0300] {logging_mixin.py:149} INFO - [2023-06-06T19:17:36.054-0300] {dag.py:3486} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2023-06-06T19:17:36.077-0300] {processor.py:179} INFO - Processing /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.064 seconds

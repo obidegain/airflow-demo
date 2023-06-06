@@ -5647,3 +5647,4 @@ File Path                                                                       
 /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.10s           2023-06-06T22:17:02
 /home/obidegain/Workspaces/airflow-demo/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.20s           2023-06-06T22:16:57
 ================================================================================
+[2023-06-06T19:17:46.101-0300] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
