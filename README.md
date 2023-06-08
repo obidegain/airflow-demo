@@ -1,5 +1,7 @@
 # airflow-demo
 
+## Entorno virtual
+
 Creamos un entorno virtual:
 ```
 python3 -m venv venv
@@ -9,18 +11,23 @@ Lo activamos
 source venv/bin/activate
 ```
 
+## Instalar paquetes
+
 Instalamos apache airflow:
 ```
 pip3 install apache-airflow
 ```
 
-Inicializamos el proyecto y la base de datos:
+## Trabajar en airflow
+
+### Pasos iniciales
+
+1) Inicializamos el proyecto y la base de datos:
 ```
 airflow db init
 ```
 
-
-Creamos un usuario:
+2) Creamos un usuario:
 ```
 airflow users create \                                
           --username admin \                                                                       
@@ -31,11 +38,10 @@ airflow users create \
 ```
 **La pass que setee es: password**
 
-Si ya tenemos el pipeline creado, estamos en condiciones de ejecutar el scheduler y webserver:
+3) Si ya tenemos el pipeline creado, estamos en condiciones de ejecutar el scheduler y webserver:
 **Muy importante: hay que tener la misma referencia a home desde las terminales:**
 
-
-1) En la terminarl 1, ponemos la referencia de AIRFLOW_HOME y ejecutamos el scheduler:
+3.1) En la terminarl 1, ponemos la referencia de AIRFLOW_HOME y ejecutamos el scheduler:
 ```
 export AIRFLOW_HOME=`pwd`/airflow
 ```
@@ -43,7 +49,7 @@ export AIRFLOW_HOME=`pwd`/airflow
 airflow scheduler
 ```
 
-2) En la terminarl 2, ponemos la referencia de AIRFLOW_HOME y ejecutamos el webserver:
+3.2) En la terminarl 2, ponemos la referencia de AIRFLOW_HOME y ejecutamos el webserver:
 ```
 export AIRFLOW_HOME=`pwd`/airflow
 ```
@@ -51,5 +57,11 @@ export AIRFLOW_HOME=`pwd`/airflow
 airflow webserver --port 8080
 ```
 
-Para tener que evitar explicitar la variable de entorno AIRFLOW_HOME cada vez que abro una terminal, puedo definirlo dentro del archivo activate del entorno virtual.
+3.3) SOLUCIÓN DEFINITIVA: Para tener que evitar explicitar la variable de entorno AIRFLOW_HOME cada vez que abro una terminal, puedo definirlo dentro del archivo activate del entorno virtual.
 Navego hasta el archivo ubicado en venv/bin/activate y agrego **export AIRFLOW_HOME=`pwd`/airflow** en la última línea.
+
+4) Si queremos evitar que se carguen todos los ejemplos, debemos editar el archivo **airflow.cfg**:
+4.1) Busca la sección [core] en el archivo de configuración.
+4.2) Dentro de la sección [core], busca la línea que comienza con load_examples y establece su valor en False. Si no encuentras esta línea, puedes agregarla manualmente con el valor load_examples = False.
+4.3) Guarda los cambios en el archivo airflow.cfg.
+4.4) Recuerda reiniciar el servidor web de Airflow después de modificar la configuración para que los cambios surtan efecto.
