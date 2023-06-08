@@ -65,3 +65,8 @@ Navego hasta el archivo ubicado en venv/bin/activate y agrego **export AIRFLOW_H
 4.2) Dentro de la sección [core], busca la línea que comienza con load_examples y establece su valor en False. Si no encuentras esta línea, puedes agregarla manualmente con el valor load_examples = False.
 4.3) Guarda los cambios en el archivo airflow.cfg.
 4.4) Recuerda reiniciar el servidor web de Airflow después de modificar la configuración para que los cambios surtan efecto.
+
+### DAGS
+
+Otro punto importante es que hay que generar archivos con los pipelines. Estos archivos, para que se ejecuten, deben estar en la carpeta correspondiente.
+¿Cuál es esa carpeta? Se encuentra especificada dentro del archivos **airflow.cfg** con el valor **dags_folder**. En mi caso, apuntaba a la carpeta principal que se llama airflow-demo/dags. Por lo tanto tuve que crear la carpeta dags dentro de airflow-demo.
