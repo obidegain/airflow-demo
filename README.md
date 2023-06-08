@@ -50,3 +50,6 @@ export AIRFLOW_HOME=`pwd`/airflow
 ```
 airflow webserver --port 8080
 ```
+
+Para tener que evitar explicitar la variable de entorno AIRFLOW_HOME cada vez que abro una terminal, puedo definirlo dentro del archivo activate del entorno virtual.
+Navego hasta el archivo ubicado en venv/bin/activate y agrego **export AIRFLOW_HOME=`pwd`/airflow** en la última línea.
